@@ -1,6 +1,4 @@
-## 判断touchmove的滑动方向
-
-
+## 第一种方案：判断touchmove的滑动方向
 
 ```
 var startX ,startY;
@@ -33,4 +31,6 @@ $("body").on("touchmove", function(e) {
     }
 });
 ```
+
+
 
