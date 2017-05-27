@@ -1,6 +1,6 @@
 # 排序算法
 
-```
+```javascript
 /**
  * sorting algorithm
  * 1. bubble sorting
