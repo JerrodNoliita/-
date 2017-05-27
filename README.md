@@ -6,7 +6,7 @@
 
 # 开始阅读
 
-* Read on[**GitBook**](https://www.gitbook.com/read/book/jerrodnoliita/javascript)
+* Read on [**GitBook**](https://www.gitbook.com/read/book/jerrodnoliita/javascript)
 * Downloads:
   * [**PDF**](https://www.gitbook.com/download/pdf/book/jerrodnoliita/javascript)
   * [**ePub**](https://www.gitbook.com/download/epub/book/jerrodnoliita/javascript)
