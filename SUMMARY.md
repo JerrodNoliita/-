@@ -9,4 +9,6 @@
     * [1.2.1. 通过id或class获取元素](chapter1/12-dui-xiang/fen.md)
 * [移动常见的问题整理和总结](yi-dong-chang-jian-de-wen-ti-zheng-li-he-zong-jie.md)
   * [touch 事件回顾](yi-dong-chang-jian-de-wen-ti-zheng-li-he-zong-jie/touch-shi-jian-hui-gu.md)
+  * 轮播滑动
+  * 导航滑动
 
