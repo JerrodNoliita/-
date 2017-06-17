@@ -56,25 +56,8 @@ array.map(function (item,index,array) {
 * reduceRight：从尾到头依次迭代，刚好与reduce相反。 例如一个数组求和：
 
 ```
-array
-.
-reduce
-(
-function
- (
-prev
-,
-next
-,
-index
-,
-array
-) {
-
-return
- prev 
-+
- next;
+array.reduce(function (prev,next,index,array) {
+    return prev + next;
 })
 ```
 
