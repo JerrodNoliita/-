@@ -10,6 +10,7 @@
   * [基本数据结构](chapter1/基本数据结构.md)
     * [数组](chapter1/基本数据结构/数组.md)
     * [链表](chapter1/ji-ben-shu-ju-jie-gou/lian-biao.md)
+    * [堆栈](chapter1/基本数据结构/dui-zhan.md)
 * [移动常见的问题整理和总结](yi-dong-chang-jian-de-wen-ti-zheng-li-he-zong-jie.md)
   * [touch 事件回顾](yi-dong-chang-jian-de-wen-ti-zheng-li-he-zong-jie/touch-shi-jian-hui-gu.md)
   * 轮播滑动
