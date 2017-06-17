@@ -1,6 +1,7 @@
 # Summary
 
 * [介绍](README.md)
+  * [测试](ce-shi.md)
 * [常用的原生js方法整理](chapter1.md)
   * [数组操作](chapter1/shu-zu.md)
     * [1.1.1.  数组去除重复项](chapter1/shu-zu/111-dui-yi-ge-shu-zu-jin-xing-qu-chu-zhong-fu-xiang.md)
