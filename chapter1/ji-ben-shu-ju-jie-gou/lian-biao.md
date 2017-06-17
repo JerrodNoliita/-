@@ -8,50 +8,50 @@ js中数组本身就不是连续的，所以在js中直接使用数组即可，�
 
 为了加深理解，这里也给出一个在js中通过对象来模拟链表结构的写法，更多方法参考[chain.js](https://github.com/qieguo2016/algorithm/blob/master/chain.js)文件。
 
-```
+```js
 function Chain(key, value) {
-	this.next = null;
-	this.key = key;
-	this.value = value;
-	this.length = 1;
+    this.next = null;
+    this.key = key;
+    this.value = value;
+    this.length = 1;
 }
 
 // 插入元素
 Chain.prototype.insertAfter = function (pos, key, value) {
-	var currentObj = this;
-	var addObj = {
-		key  : key,
-		value: value
-	}
-	while (currentObj.key !== pos) {
-		currentObj = currentObj.next;
-	}
-	addObj.next = currentObj.next;
-	currentObj.next = addObj;
-	this.length++;
-	return this;
+    var currentObj = this;
+    var addObj = {
+        key  : key,
+        value: value
+    }
+    while (currentObj.key !== pos) {
+        currentObj = currentObj.next;
+    }
+    addObj.next = currentObj.next;
+    currentObj.next = addObj;
+    this.length++;
+    return this;
 }
 
 // 删除元素
 Chain.prototype.delele = function (key) {
-	var last = null;
-	var currentObj = this;
-	while (currentObj.key !== key) {
-		last = currentObj;
-		currentObj = currentObj.next;
-	}
-	last.next = currentObj.next;
-	this.length--;
-	return this;
+    var last = null;
+    var currentObj = this;
+    while (currentObj.key !== key) {
+        last = currentObj;
+        currentObj = currentObj.next;
+    }
+    last.next = currentObj.next;
+    this.length--;
+    return this;
 }
 
 // 查找元素
 Chain.prototype.find = function (key) {
-	var currentObj = this;
-	while (currentObj.key !== key) {
-		currentObj = currentObj.next;
-	}
-	return currentObj.value;
+    var currentObj = this;
+    while (currentObj.key !== key) {
+        currentObj = currentObj.next;
+    }
+    return currentObj.value;
 }
 ```
 
