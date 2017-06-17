@@ -47,23 +47,8 @@ array.sort(function (pre, next) {
 * some：对数组的所有元素都执行传入函数，@return 当任一元素的返回值为真是，返回真。数组全体的或操作。 以上传入函数的参数均为 item、index、array，后两项为可选参数。例如平方映射函数：
 
 ```
-array
-.
-map
-(
-function
- (
-item
-,
-index
-,
-array
-) {
-  
-return
- item 
-*
- item;
+array.map(function (item,index,array) {
+  return item * item;
 })
 ```
 
@@ -85,7 +70,7 @@ index
 ,
 array
 ) {
-    
+
 return
  prev 
 +
