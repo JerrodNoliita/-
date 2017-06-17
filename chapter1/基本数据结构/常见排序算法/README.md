@@ -1,7 +1,4 @@
-
-
-```
-
+```js
 /**
  * 冒泡排序
  * @param       : <Array> target数组
@@ -121,5 +118,6 @@ function mergeSortTest() {
 }
 // mergeSortTest()
 ```
+
 
 
