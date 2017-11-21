@@ -16,4 +16,5 @@
   * [touch 事件回顾](yi-dong-chang-jian-de-wen-ti-zheng-li-he-zong-jie/touch-shi-jian-hui-gu.md)
   * [轮播滑动](yi-dong-chang-jian-de-wen-ti-zheng-li-he-zong-jie/lun-bo-hua-dong.md)
   * [导航滑动](yi-dong-chang-jian-de-wen-ti-zheng-li-he-zong-jie/dao-hang-hua-dong.md)
+* [pm2](pm2.md)
 
